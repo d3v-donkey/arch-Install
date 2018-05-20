@@ -1,0 +1,23 @@
+
+Toutes les contributions sont les bienvenues : GitHub : https://github.com/d3v-donkey		  
+ Arch Linux installation script V.2018
+
++ ARCHITECTURE == "LEGACY" : 						 					  
+- sda1 ==> 100M (ext2)														  
+- sda2 ==> 16G  (swap)								                        
+- sda3 ==> ~ (ext4)																  
+			
++ ARCHITECTURE == "UEFI" :			
+- sda1 ==> 512M (EF00)
+- sda2 ==> 16G  (8200)
+- sda3 ==> ~ (8300)
+
++ Driver Video :									  
+- nvidia ==> xf86-video-nouveau mesa				                     
+- amd ==> xf86-video-amdgpu mesa					         
+- ati ==> xf86-video-ati mesa					        
+- intel ==> xf86-video-intel mesa														                                                          
+- GPU found ==> xf86-video-vesa mesa				                          
+
+bootloader == Grub2 									
+Ce script effaces toutes les donn�es sur votre disque dur principal (/dev/sda)
