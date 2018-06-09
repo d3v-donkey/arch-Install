@@ -1,5 +1,8 @@
 # arch-Install
 Arch-Linux Full Install Scripts (base+openbox)
 
-./d3v_Install --base pour l'installation.
-./d3v_Install --post apres redemarrage.
+Pour l'installation /
+./d3v_Install --base
+
+Apres redemarrage /
+./d3v_Install --post
